@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Impressive Slideshow with 3D Effect - CROCO.CODE</title>
+		<meta name="description" content="A responsive and fullscreen slideshow that allows displaying content with impressive 3D, zoom, and text reveal effects. " />
+		<meta name="keywords" content="tweenmax, gsap, slideshow, carousel, responsive, animated, slider, inspiration" />
+		<meta name="author" content="CROCO.CODE" />
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+  </head>
+  <body>
+    
+    <!-- CROCO.CODE:loader START -->
+    <div class="loader">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- CROCO.CODE:loader END -->
+
+    <!-- CROCO.CODE:header START -->
+    <header>
+      <div class="header-inner">
+        <div class="header-headline">
+          <p>C’est la vie</p>
+        </div>
+        <nav class="navigation">
+          <li><a href="https://github.com/crococode-io">github</a></li>
+          <li><a href="https://www.instagram.com/croco.code">instagram</a></li>
+          <li><a href="https://www.tiktok.com/@croco.code">tiktok</a></li>
+        </nav>
+      </div>
+    </header>
+    <!-- CROCO.CODE:header END -->
+
+    <!-- CROCO.CODE:slideshow:navigation START -->
+    <nav id="nav">
+      <button id="prev" class="nav-item" data-increment="-1">
+        <img src="assets/img/icon-prev.png" alt="prev" />
+      </button>
+      <button id="next" class="nav-item" data-increment="1">
+        <img src="assets/img/icon-next.png" alt="next" />
+      </button>
+    </nav>
+    <!-- CROCO.CODE:slideshow:navigation END -->
+
+    <!-- CROCO.CODE:slideshow START -->
+    <section class="croco-3d-carousel">
+      <div class="stage">
+        
+        <!-- CROCO.CODE:slideshow:item START -->
+        <div class="item">
+          <div class="bcg" style="background-image: url(assets/img/img-1.jpeg);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1483 - 1843</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Dream big</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <!-- CROCO.CODE:slideshow:item END -->
+
+        <!-- CROCO.CODE:slideshow:item START -->
+        <div class="item">
+          <div class="bcg" style="background-image: url(assets/img/img-2.jpeg);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1723 - 1798</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Pray bigger</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <!-- CROCO.CODE:slideshow:item END -->
+
+        <!-- CROCO.CODE:slideshow:item START -->
+        <div class="item">
+          <div class="bcg" style="background-image: url(assets/img/img-3.jpeg);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1845 - 1853</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Keep going</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+        <!-- CROCO.CODE:slideshow:item END -->
+
+      </div>
+    </section>
+    <!-- CROCO.CODE:slideshow END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
