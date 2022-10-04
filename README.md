@@ -1,6 +1,6 @@
 # Impressive Slideshow with 3D Effect
 
-A responsive and fullscreen slideshow that allows displaying content with impressive 3D, zoom, and text reveal effects. 
+A responsive and fullscreen slideshow that allows displaying content with impressive 3D, zoom, and text reveal effects.
 
 ![Impressive Slideshow with 3D Effect](https://raw.githubusercontent.com/crococode-io/images/main/impressive-slideshow-with-3d-effect.png)
 
